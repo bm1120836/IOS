@@ -29,8 +29,8 @@ for i in 10...50 where i % 2 != 0 {
         k *= 2
     } else {
         print("Next")
-        default: continue
     }
+    continue
 }
 
 ### 4. Создайте переменную “k”, равную 9. В диапазоне от 10 до 50, 
@@ -43,6 +43,6 @@ for i in 10...50 where i % 2 != 0 {
         k += 1
     } else {
         print("Next")
-        default: brake
     }
+    break
 }
